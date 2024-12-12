@@ -31,7 +31,7 @@ ACCESS_TOKEN = os.getenv("LINE_ACCESS_TOKEN", "9MNJxB5mmZmPKtlMnUCwqqkLeTkUU6kn/
 CHANNEL_SECRET = os.getenv("LINE_CHANNEL_SECRET", "145b1c4093aaf4019941dca601c442d9")
 
 # ข้อมูล Gemini api key
-GEMINI_API_KEY = os.getenv("AIzaSyCMY8P0v_F7bvktIwscIckpICNXlDFY9_s")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyCMY8P0v_F7bvktIwscIckpICNXlDFY9_s")
 
 # การเชื่อมต่อ และตั้งค่าข้อมูลเพื่อเรียกใช้งาน LINE Messaging API
 configuration = Configuration(access_token=ACCESS_TOKEN)
